@@ -5,9 +5,6 @@ import Navbar from './components/CustomNavbar'
 import News from './components/News'
 import Home from './components/Home'
 import About from './components/About'
-import $ from 'jquery';
-
-import { Jumbotron, Grid, Row, Col, Image, Button} from 'react-bootstrap';
 
 
 class App extends Component {

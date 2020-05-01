@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 
-import { Grid, Row, Col} from 'react-bootstrap';
+import { Container, Row, Col} from 'react-bootstrap';
 export default class About extends Component {
   render() {
     return (
       <div>
- <Grid>
+ <Container>
           <h2>About</h2>
           <Row>
             <Col xs={12} sm={8} className="main-section">
@@ -16,7 +16,7 @@ export default class About extends Component {
               <p>Water's like me. It's laaazy ... Boy, it always looks for the easiest way to do things Let's make some happy little clouds in our world. This is a happy place, little squirrels live here and play. We'll do another happy little painting. A fan brush is a fantastic piece of equipment. Use it. Make friends with it. We might as well make some Almighty mountains today as well, what the heck.</p>
             </Col>
 </Row>
-</Grid>
+</Container>
       </div>
     )
   }
